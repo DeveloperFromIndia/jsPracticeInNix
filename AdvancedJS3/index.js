@@ -5,4 +5,3 @@ function solve(str) {
     }
     return tmpArr[0].length > tmpArr[1].length ? str.toUpperCase() : str.toLowerCase();
 }
-console.log(solve(a));
